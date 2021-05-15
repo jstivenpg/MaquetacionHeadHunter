@@ -1,0 +1,14 @@
+body {
+    background: #e9ecf4;
+    color: #000;
+    font-family: 'roboto', sans-serif;
+}
+
+.globalContainer {
+
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+}
