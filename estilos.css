@@ -6,9 +6,22 @@ body {
 
 .globalContainer {
 
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 0px auto;
     display: grid;
     grid-gap: 20px;
+}
+.row > div{
+    background: #620C5E;;
+    border: 0px solid grey;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.paragraph{
+    color: white;
+    font-size: 13px;
+    line-height: 50px;
+    font-family: 'Raleway', sans-serif;
 }
