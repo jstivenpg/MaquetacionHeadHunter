@@ -1,27 +1,52 @@
 body {
     background: #e9ecf4;
     color: #000;
-    font-family: 'roboto', sans-serif;
 }
 
 .globalContainer {
-
     width: 100%;
     max-width: 1000px;
     margin: 0px auto;
-    display: grid;
-    grid-gap: 20px;
 }
-.row > div{
-    background: #620C5E;;
-    border: 0px solid grey;
-    padding: 0%;
-    margin: 0%;
-    
-}
+
 .paragraph{
-    color: white;
+    font-family: 'KGSecondChancesSolid';
+    color: rgb(255, 255, 255);
     font-size: 13px;
-    line-height: 50px;
-    font-family: 'Raleway', sans-serif;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: KGSecondChancesSolid;
+    src: url('resources/Fonts/Main_font/KGSecondChancesSolid.eot'),
+         url('resources/Fonts/Main_font/KGSecondChancesSolid.ttf'),
+         url('resources/Fonts/Main_font/KGSecondChancesSolid.woff');
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) { 
+    .paragraph{
+        font-size: 7px;
+        color:  rgb(255, 255, 255);
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 750px) { 
+    .paragraph{
+        font-size: 9px;
+        color:  rgb(255, 255, 255);
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 900px) { 
+    .paragraph{
+        font-size: 11px;
+        color:  rgb(255, 255, 255);
+    }
+}
+
+@media screen and (min-width: 901) and (max-width: 1000px) { 
+    .paragraph{
+        font-size: 11px;
+        color:  rgb(255, 255, 255);
+    }
 }
