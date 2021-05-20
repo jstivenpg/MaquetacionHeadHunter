@@ -30,6 +30,10 @@ body {
     width: fit-content;
 } */
 
+.curriculum h2 {
+    background: #f69d25;
+    color: #af226c;
+
 @media screen and (min-width: 450px) and (max-width: 600px) { 
     .paragraph{
         font-size: 7px;
@@ -56,4 +60,6 @@ body {
         font-size: 11px;
         color:  rgb(255, 255, 255);
     }
+}
+
 }
