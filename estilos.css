@@ -33,6 +33,7 @@ body {
 .curriculum h2 {
     background: #f69d25;
     color: #af226c;
+}
 
 @media screen and (min-width: 450px) and (max-width: 600px) { 
     .paragraph{
@@ -62,4 +63,3 @@ body {
     }
 }
 
-}
