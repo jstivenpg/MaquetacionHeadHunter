@@ -23,6 +23,13 @@ body {
          url('resources/Fonts/Main_font/KGSecondChancesSolid.woff');
 }
 
+/* .bottonStyle {
+    background-color: #bad53b;
+    padding: .6rem 2rem;
+    border-radius: 25px;
+    width: fit-content;
+} */
+
 @media screen and (min-width: 450px) and (max-width: 600px) { 
     .paragraph{
         font-size: 7px;
